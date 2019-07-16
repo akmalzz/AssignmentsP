@@ -28,7 +28,7 @@ public class Prob5
                     return colTemp;
             }
 
-            if(i==i)
+            if(i==0)
                 diaTemp = board[i][i];
             if(diaTemp != board[i][i])
                 break;
@@ -42,7 +42,7 @@ public class Prob5
     }
     public static void main(String[] args)
     {
-        char[][] board = new char[][]{{'X', 'O', 'O'}, {'0', 'X', 'X'}, {'O', 'O', 'O'}};
+        char[][] board = new char[][]{{'X', 'O', 'O'}, {'O', 'X', 'X'}, {'O', 'O', 'O'}};
         for (int i=0; i< 3;i++)
         {
             for (int j = 0; j<3; j++)
